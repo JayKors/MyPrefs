@@ -46,10 +46,10 @@ class ViewController: UIViewController {
               if defaults.string(forKey: "fullname") != nil{
                     txtFullName.text = defaults.string(forKey: "fullname")
               }
-              if defaults.string(forKey: "fullname") != nil{
+              if defaults.string(forKey: "preferredname") != nil{
                     txtPreferredName.text = defaults.string(forKey: "preferredname")
               }
-              if defaults.string(forKey: "fullname") != nil{
+              if defaults.string(forKey: "phonenumber") != nil{
                     txtPhoneNumber.text = defaults.string(forKey: "phonenumber")
               }
               if defaults.string(forKey: "email") != nil{
